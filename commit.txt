@@ -1,0 +1,13 @@
+cd ..
+mkdir gittest
+cd gittest
+git init
+touch index.html aboutMe.txt
+git add .
+git commit -m “updated aboutMe”
+echo 'Back to the Future series' > aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n HEAD
+git revert -n 7a35cb935ddf9d229e9ee25449d7696851f00efd
+git commit -m “revert 7a35cb935ddf9d229e9ee25449d7696851f00efd”

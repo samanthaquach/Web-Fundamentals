@@ -1,0 +1,9 @@
+cd ..
+mkdir githubrepoassignment
+cd githubrepoassignment
+touch readme.md
+ls
+git add “readme.md”
+git commit
+git remote add origin https://github.com/samq1/GitHubRepoAssignment.git
+git push -u origin master

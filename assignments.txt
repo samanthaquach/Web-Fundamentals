@@ -1,0 +1,48 @@
+Last login: Mon Sep 18 18:06:54 on ttys000
+Samanthas-MacBook-Air:~ sammiae$ cd dekstop
+-bash: cd: dekstop: No such file or directory
+Samanthas-MacBook-Air:~ sammiae$ cd desktop
+Samanthas-MacBook-Air:desktop sammiae$ cd dojoassignments
+Samanthas-MacBook-Air:dojoassignments sammiae$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Samanthas-MacBook-Air:dojoassignments sammiae$ cd python
+Samanthas-MacBook-Air:python sammiae$ touch about.txt
+Samanthas-MacBook-Air:python sammiae$ ls
+about.txt
+Samanthas-MacBook-Air:python sammiae$ cd ..
+Samanthas-MacBook-Air:dojoassignments sammiae$ cd webfundamentals
+Samanthas-MacBook-Air:webfundamentals sammiae$ touch about.txt
+Samanthas-MacBook-Air:webfundamentals sammiae$ ls
+about.txt
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd ..
+Samanthas-MacBook-Air:dojoassignments sammiae$ cd netcore
+Samanthas-MacBook-Air:netcore sammiae$ touch about.txt
+Samanthas-MacBook-Air:netcore sammiae$ ls
+about.txt
+Samanthas-MacBook-Air:netcore sammiae$ cd ..
+Samanthas-MacBook-Air:dojoassignments sammiae$ cd webfundamentals
+Samanthas-MacBook-Air:webfundamentals sammiae$ mkdir Git
+Samanthas-MacBook-Air:webfundamentals sammiae$ mkdir HTML
+Samanthas-MacBook-Air:webfundamentals sammiae$ mkdir CSS
+Samanthas-MacBook-Air:webfundamentals sammiae$ mkdir Javascript
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd ..
+Samanthas-MacBook-Air:dojoassignments sammiae$ cd webfundamentals
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd git
+Samanthas-MacBook-Air:git sammiae$ touch about.txt
+Samanthas-MacBook-Air:git sammiae$ cd ..
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd html
+Samanthas-MacBook-Air:html sammiae$ touch about.txt
+Samanthas-MacBook-Air:html sammiae$ cd ..
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd css
+Samanthas-MacBook-Air:css sammiae$ touch about.txt
+Samanthas-MacBook-Air:css sammiae$ ls
+about.txt
+Samanthas-MacBook-Air:css sammiae$ cd ..
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd html
+Samanthas-MacBook-Air:html sammiae$ touch indentation.html
+Samanthas-MacBook-Air:html sammiae$ ls
+about.txt		indentation.html
+Samanthas-MacBook-Air:html sammiae$ cd ..
+Samanthas-MacBook-Air:webfundamentals sammiae$ cd ..
+Samanthas-MacBook-Air:dojoassignments sammiae$ 
