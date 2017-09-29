@@ -1,0 +1,15 @@
+.wrapper{
+    width: 1000px;
+
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+#houses{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}

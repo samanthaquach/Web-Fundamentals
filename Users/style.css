@@ -1,0 +1,35 @@
+.wrapper{
+    width: 600px;
+    height: 365px;
+}
+.header{
+    width: 600px;
+    border: 2px solid black;
+}
+.content{
+    width: 500px;
+}
+.body{
+    width: 400px;
+}
+.content{
+    width: 300px;
+
+}
+input{
+    display: inline-block;
+    vertical-align: top;
+}
+table{
+    width: 400px;
+    border: 1px solid black;
+
+}
+th, td{
+    display: inline-block;
+}
+td{
+    font-size: 16px;
+    word-spacing: 2px;
+
+}

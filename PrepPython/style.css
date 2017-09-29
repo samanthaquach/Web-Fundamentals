@@ -1,0 +1,157 @@
+.wrapper{
+    width: 970px;
+    background: #1b4f78; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1b4f78, #448DC5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1b4f78, #448DC5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1b4f78, #448DC5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1b4f78, #448DC5); /* Standard syntax */
+
+}
+.header{
+    width: 970px;
+    height: 200px;
+}
+.logo, .logo img{
+    width: 280px;
+    height: 100px;
+}
+.logo, .rightcorner{
+    display: inline-block;
+    vertical-align: top;
+}
+.rightcorner{
+    margin-left: 430px;
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    letter-spacing: 0.2px;
+    font-family: Helvetica, Verdana;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.rightcorner span{
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.search{
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: #444444;
+    border-radius: 1em;
+}
+input{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 140px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.search button{
+    height: 25px;
+    padding-top: 5px;
+    border-radius: 0.5em;
+}
+.nav{
+    width: 700px;
+    height: 15px;
+    word-break: break-all;
+    margin-left: 100px;
+    margin-top:-90px;
+    padding-bottom: 28px;
+    padding-top: 9px;
+    background: #3c7daf; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2f76af, #63A4D6,#2f76af); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f76af, #63A4D6,#2f76af); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f76af, #63A4D6,#2f76af); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4484A8, #63A4D6,#2f76af); /* Standard syntax */
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px #292929;
+
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    font-family: helvetica;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.maincontent{
+    width: 970px;
+    height: 240px;
+    padding-top: 10px;
+    border: 0px 0px 2px 0px;
+}
+.sidelinks, .paraquote{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.sidelinks{
+    width: 200px; 
+    height: 20px;
+    margin-left: 90px;
+
+}
+.sidelinks a{
+    color: white;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.paraquote{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+}
+.paraquote p{
+    color: white;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.yellowquote{
+    color: #f7d107;
+    font-family: helvetica;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.author{
+    color: white;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.GetStartApp{
+    height: 500px;
+    margin-left: 200px;
+}
+.GettingStarted, .Applications{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}

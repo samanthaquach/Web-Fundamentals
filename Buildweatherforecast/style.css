@@ -1,0 +1,45 @@
+.wrapper{
+    width: 800px;
+    height: 600px;
+    background-color: #FAFAAD;
+    padding-top: 50px;
+}
+.weather{
+    width: 400px;
+    height: 400px;
+    margin-left: 170px;
+    margin-top: 1px;
+    background-color: white;
+    border-width: 2px solid white;
+    border-color: rgba(255, 255, 255, 0.78);
+    display: block;
+    padding-top: 10px;
+}
+input{
+    display: block;
+    margin-left: 130px;
+}
+.search{
+    width: 130px;
+}
+.results{
+    width: 300px;
+    font-family: arial;
+    color: black;
+}
+
+.results {
+    overflow: hidden;
+}
+
+.results {
+    text-align: center;
+    color: rgba(1, 1, 207, 0.56);
+    margin-top: 25px;
+}
+
+.results {
+    text-align: center;
+    color: rgba(1, 1, 207, 0.56);
+    margin-top: 10px;
+}
