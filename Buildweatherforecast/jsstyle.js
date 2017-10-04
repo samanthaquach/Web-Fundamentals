@@ -1,5 +1,6 @@
 $(document).ready(function() {
         $('.form').submit(function(){
+            $('.results').html('');
             console.log('checking weather..');
             var citySearch = $('.location_name').val();
             var key = "&&APPID=cb58a8378336f787d5e8e8208e8f9455";
@@ -8,6 +9,7 @@ $(document).ready(function() {
             
             
             $.get(proxyurl, function(res){
+                
                 console.log(Math.floor((res.main.temp * (9/5)-459.67)))
                 console.log(res)
 

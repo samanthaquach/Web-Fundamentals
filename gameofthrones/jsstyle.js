@@ -9,7 +9,7 @@ $(document).ready(function() {
          }
          var html = `<ul>
 
-             <li><legend>House Detail</legend></li>
+             <li><span>House Detail</span></li>
              <li><h2>Name: ${res.name}</h2></li>
              <li><h3>Words: ${res.words}</h3></li>
              <li><h3>Titles:${string}</h3></li>

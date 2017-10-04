@@ -5,7 +5,6 @@
 
           $(document).on("click", "img", function(){
           console.log('you clicked a pokemon!');
-          var k = ;
           var id = this.id;
           var proxy = "https://cors-anywhere.herokuapp.com/";
           var url = "http://pokeapi.co/api/v2/pokemon/";
